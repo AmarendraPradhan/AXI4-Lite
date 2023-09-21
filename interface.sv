@@ -1,7 +1,6 @@
 interface slave_if #(parameter WIDTH = 32) (input clk , rst_n); 
 
 
-	
 		// Address write channel
 		   logic  awready;
 		   logic   awvalid;
