@@ -10,7 +10,6 @@ class agent extends uvm_agent;
     	super.new(name,parent);
     endfunction : new
 
-
     //Build phase
 	 function void build_phase(uvm_phase phase);
     
