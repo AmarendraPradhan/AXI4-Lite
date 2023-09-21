@@ -90,6 +90,7 @@ module master #(parameter DATA_WIDTH = 32,
 		endcase
 	end
 
+	
 	//output logic
 	always @(posedge clk or negedge rst_n) begin
 		if (~rst_n) begin
