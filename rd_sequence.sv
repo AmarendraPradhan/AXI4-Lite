@@ -6,6 +6,7 @@ class slave_rd_seq extends uvm_sequence#(slave_seq_item);
   function new(string name = "slave_rd_seq");
     super.new(name);
   endfunction
+
   
   virtual task body();
     `uvm_do_with(req,{req.arvalid == 1;})
