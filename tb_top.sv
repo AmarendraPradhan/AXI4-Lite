@@ -1,7 +1,7 @@
 module top
 	reg clk;
 
-
+	
 always #5 clk = ~clk;
 
 	intf intrf (clk);
