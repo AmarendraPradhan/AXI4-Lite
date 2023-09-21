@@ -18,6 +18,6 @@ class slave_sequence extends uvm_sequence#(slave_seq_item);
 	send_request(req);
 	wait_for_item_done();
 
-endtask
+	endtask
 
 endclass
