@@ -1,6 +1,7 @@
 module master #(parameter DATA_WIDTH = 32,
              parameter ADDRESS_WIDTH = 32)(
 
+	     
 		input clk,    // Clock
 		input rst_n,  // Asynchronous reset active low
         input wr_en,
