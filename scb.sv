@@ -8,6 +8,5 @@ class scoreboard extends uvm_scoreboard;
 	function void build_phase(uvm_phase phase);
     	//super.build_phase(phase);
 	endfunction: build_phase
-    	
 
 endclass : scoreboard
