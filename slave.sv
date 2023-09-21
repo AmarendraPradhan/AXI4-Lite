@@ -1,6 +1,7 @@
  module slave #( parameter DATA_WIDTH = 32,
              parameter ADDRESS_WIDTH = 32 )(
-             
+
+	      //Global signals
 		input clk,    // Clock
 		input rst_n,  // Asynchronous reset active low
 	
