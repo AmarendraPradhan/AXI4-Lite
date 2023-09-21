@@ -4,7 +4,6 @@ class slave_monitor extends uvm_monitor;
 	// Virtual Interface
   virtual intf_if vif;
 
-
    uvm_analysis_port #(slave_seq_item) item_collected_port;
 
    slave_seq_item trans_collected;
