@@ -66,7 +66,8 @@ module top #(
 			        .rd_en(rd_en)
 			        );
 			        
-			        
+
+	
 	slave DUT_slave(
                     .clk(clk),
 		            .rst_n(rst_n),
