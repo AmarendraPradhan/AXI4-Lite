@@ -13,7 +13,6 @@
        `uvm_fatal("NO_VIF",{"virtual interface must be set for: ",get_full_name(),".vif"});
   	endfunction: build_phase 
 
-
   	task run_phase(uvm_phase phase);
      seq_item seq_item_h;
 
