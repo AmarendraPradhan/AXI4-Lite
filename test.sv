@@ -3,6 +3,7 @@ class test extends uvm_component;
 	env env_h;
 	sequence seq_h; 
 
+		
 //constructor
 	function new(string name = "test", uvm_component parent);
     	super.new(name,parent);
